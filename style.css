@@ -1,0 +1,152 @@
+
+ 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: coral;
+    line-height: 1.5rem;
+    padding-bottom : 20px;
+  
+  }
+  
+  h2{
+    color: white;
+  }
+  .para1{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  whitesmoke;
+    opacity: 7;
+    font-weight: bold;
+    width: 500px;
+    line-height: 24px;
+    
+  
+  }
+  
+ .container{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 30px;
+   
+  }
+  
+  header{
+    background-color: #c90d0d0a;
+    color: #fff;
+    min-height: 500px;
+  }
+ .container{
+    display: flex;
+    justify-content:  space-between;
+    /* align-items: center; */
+    flex-direction: row;
+    margin-left: 35px;
+  }
+  
+  .header2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    line-height: 33px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  h2{
+    margin-bottom: 20px;
+  }
+  
+  .header-first{
+    margin-top: 150px;
+    
+  
+  }
+  
+  .form-section{
+    margin-top: 15px;
+  
+  }
+  
+  .para{
+    background-color :hsl(248, 32%, 49%);
+    width: 500px;
+    padding: 12px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  form{
+   
+    background-color: #fff;
+    width: 500px;
+    min-height: 600px;
+    text-align: center;
+    
+  
+  }
+  
+  .form-form{
+  width: 400px;
+  height: 40px;
+  margin: 15px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 40px;
+  color: white;
+  
+  }
+  
+  .reclaim{
+    border-radius: 10px solid red;
+    background-color: hsl(154, 59%, 51%);
+    width: 400px;
+    height: 50px;
+    margin-left: 45px;
+    border-radius: 15px ;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .terms{
+
+    width: 400px;
+    height: 50px;
+    margin-left:  45px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    /* background-color: antiquewhite; */
+    
+    
+  }
+  span{
+    color: red;
+  }
+
+  @media(max-width: 1024px){
+  header .container{
+      flex-direction: column;
+      padding: 50px;
+      text-align: center;
+     
+  
+    }
+  }
+  
+  
